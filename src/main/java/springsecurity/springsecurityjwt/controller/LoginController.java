@@ -1,4 +1,4 @@
-package springsecurity.springsecurityjwt;
+package springsecurity.springsecurityjwt.controller;
 
 
 import org.springframework.stereotype.Controller;
