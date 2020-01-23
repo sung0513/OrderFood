@@ -1,4 +1,4 @@
-package springsecurity.springsecurityjwt.repository;
+package springsecurity.orderfood.repository;
 
 
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package springsecurity.springsecurityjwt.controller;
+package springsecurity.orderfood.controller;
 
 
 import org.springframework.stereotype.Controller;

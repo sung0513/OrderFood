@@ -1,4 +1,4 @@
-package springsecurity.springsecurityjwt.config;
+package springsecurity.orderfood.config;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
