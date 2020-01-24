@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7771905-976b-4bc5-97ef-14579a253893" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Orderfood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/Memberrepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/OrderStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/springsecurityjwt/SpringSecurityJwtApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/SpringSecurityJwtApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/springsecurityjwt/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/springsecurityjwt/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/springsecurityjwt/model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/springsecurityjwt/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/springsecurityjwt/repository/Rolerepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/Rolerepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/springsecurityjwt/repository/Userrepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/Userrepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Chicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Orderfood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Orderfood.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +65,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -139,7 +128,7 @@
       <workItem from="1579396719436" duration="7753000" />
       <workItem from="1579573639094" duration="1086000" />
       <workItem from="1579574796974" duration="2077000" />
-      <workItem from="1579655960865" duration="4773000" />
+      <workItem from="1579655960865" duration="10460000" />
     </task>
     <task id="LOCAL-00001" summary="하루에 하나씩">
       <created>1579404111375</created>
@@ -162,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579574476197</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="내꺼">
+      <created>1579750627458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579750627458</updated>
+    </task>
+    <task id="LOCAL-00005" summary="내꺼">
+      <created>1579760435828</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579760435828</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,9 +192,11 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="457" y="222" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.825@0.23.1440.825" timestamp="1579408537646" />
-    <state x="459" y="45" key="CommitChangelistDialog2" timestamp="1579574475790">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="459" y="32" key="CommitChangelistDialog2" timestamp="1579760435544">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
+    <state x="459" y="32" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1579750627084" />
+    <state x="459" y="32" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1579760435544" />
     <state x="459" y="45" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1579404111158" />
     <state x="459" y="45" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1579574475790" />
     <state x="569" y="331" key="Github.ShareDialog" timestamp="1579404151267">
@@ -242,15 +247,17 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="487" y="160" key="RollbackChangesDialog/0.23.1440.823@0.23.1440.823" timestamp="1579404282833" />
-    <state x="229" y="73" key="SettingsEditor" timestamp="1579655951048">
-      <screen x="0" y="23" width="1440" height="804" />
+    <state x="229" y="73" key="SettingsEditor" timestamp="1579760393405">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="229" y="73" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1579655951048" />
+    <state x="229" y="73" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1579760393405" />
     <state x="229" y="74" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1579575000182" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1579750599699">
-      <screen x="0" y="23" width="1440" height="804" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1579760446752">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1579750599699" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1579750641246" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1579760446752" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.823@0.23.1440.823" timestamp="1579404314034" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1579574480756" />
     <state x="413" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1579574801307">
@@ -264,10 +271,10 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="470" y="229" key="git4idea.merge.GitMergeDialog/0.23.1440.829@0.23.1440.829" timestamp="1579533492718" />
-    <state x="326" y="169" width="670" height="658" key="search.everywhere.popup" timestamp="1579656346480">
+    <state x="326" y="169" width="670" height="658" key="search.everywhere.popup" timestamp="1579834600139">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state x="326" y="169" width="670" height="658" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1579656346480" />
+    <state x="326" y="169" width="670" height="658" key="search.everywhere.popup/0.23.1440.804@0.23.1440.804" timestamp="1579834600139" />
     <state x="326" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1579573925144" />
   </component>
 </project>

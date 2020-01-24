@@ -10,7 +10,8 @@ import java.util.List;
 
 @Entity
 @Getter@Setter
-public class Order {
+@Table(name = "orderlist")
+public class Order<Totaltime> {
 
         @Id@GeneratedValue
         @Column(name = 'Order_id')
@@ -21,8 +22,18 @@ public class Order {
         @JoinColumn(name = "member_id")
         private Member member;
 
+        @OneToMany(mappedBy = "orderfood")
         private List<Orderfood> orderfoods = new ArrayList<>();
 
+        @OneToOne
+        @JoinColumn(name = "delivery_id")
+        private Delivery delivery;
+
+
+        private Totaltime totaltime;
+
+        @Enumerated(EnumType.STRING)
+        private OrderStatus status;
 
 
 

@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 import springsecurity.orderfood.food.Food;
 
+import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 

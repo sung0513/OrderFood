@@ -8,6 +8,7 @@ import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn(name ="Ftype")
 @Getter@Setter
 
 public class Food {
