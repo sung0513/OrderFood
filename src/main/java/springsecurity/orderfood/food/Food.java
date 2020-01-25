@@ -3,8 +3,11 @@ package springsecurity.orderfood.food;
 
 import lombok.Getter;
 import lombok.Setter;
+import springsecurity.orderfood.model.Category;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
@@ -20,5 +23,8 @@ public class Food {
     private String name;
     private int price;
     private int max;
+
+    @ManyToMany(mappedBy = "foods")
+    private List<Category> categories = new ArrayList<>();
 
 }

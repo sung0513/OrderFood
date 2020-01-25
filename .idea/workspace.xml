@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7771905-976b-4bc5-97ef-14579a253893" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Chicken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Orderfood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Orderfood.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +124,7 @@
       <workItem from="1579396719436" duration="7753000" />
       <workItem from="1579573639094" duration="1086000" />
       <workItem from="1579574796974" duration="2077000" />
-      <workItem from="1579655960865" duration="10460000" />
+      <workItem from="1579655960865" duration="12738000" />
     </task>
     <task id="LOCAL-00001" summary="하루에 하나씩">
       <created>1579404111375</created>
@@ -165,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579760435828</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="내꺼">
+      <created>1579854702800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579854702800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,11 +195,11 @@
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="457" y="222" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.825@0.23.1440.825" timestamp="1579408537646" />
-    <state x="459" y="32" key="CommitChangelistDialog2" timestamp="1579760435544">
+    <state x="459" y="32" key="CommitChangelistDialog2" timestamp="1579854702565">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="459" y="32" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1579750627084" />
-    <state x="459" y="32" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1579760435544" />
+    <state x="459" y="32" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1579854702565" />
     <state x="459" y="45" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1579404111158" />
     <state x="459" y="45" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1579574475790" />
     <state x="569" y="331" key="Github.ShareDialog" timestamp="1579404151267">
@@ -253,11 +256,11 @@
     <state x="229" y="73" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1579655951048" />
     <state x="229" y="73" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1579760393405" />
     <state x="229" y="74" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1579575000182" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1579760446752">
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1579854710707">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1579750641246" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1579760446752" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1579854710707" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.823@0.23.1440.823" timestamp="1579404314034" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1579574480756" />
     <state x="413" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1579574801307">
