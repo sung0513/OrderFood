@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7771905-976b-4bc5-97ef-14579a253893" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/FoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/service/FoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/service/RoleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/Memberrepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/Rolerepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springsecurity/orderfood/repository/Userrepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +79,53 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringSecurityJwtApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="OrderFood" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="OrderFood" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringSecurityJwtApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-security-jwt.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="springsecurity.orderfood.SpringSecurityJwtApplication" />
@@ -124,7 +180,9 @@
       <workItem from="1579396719436" duration="7753000" />
       <workItem from="1579573639094" duration="1086000" />
       <workItem from="1579574796974" duration="2077000" />
-      <workItem from="1579655960865" duration="12738000" />
+      <workItem from="1579655960865" duration="13676000" />
+      <workItem from="1580000499908" duration="1044000" />
+      <workItem from="1580101575318" duration="8694000" />
     </task>
     <task id="LOCAL-00001" summary="하루에 하나씩">
       <created>1579404111375</created>
@@ -168,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579854702800</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="내꺼">
+      <created>1579950458101</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579950458101</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,18 +252,26 @@
     <state x="261" y="97" key="#Assign_Data_Sources/0.23.1440.804@0.23.1440.804" timestamp="1579749838555" />
     <state x="261" y="99" key="#Assign_Data_Sources/0.23.1440.825@0.23.1440.825" timestamp="1579575025870" />
     <state x="261" y="99" key="#Assign_Data_Sources/0.23.1440.826@0.23.1440.826" timestamp="1579574129525" />
+    <state x="640" y="105" key="#Auto_Import" timestamp="1580205275877">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="640" y="105" key="#Auto_Import/0.23.1440.806@0.23.1440.806" timestamp="1580205275877" />
     <state x="184" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579408593358">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="184" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1579408593358" />
+    <state x="771" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1580209372002">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state x="771" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.804@0.23.1440.804" timestamp="1580209372002" />
     <state x="457" y="222" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579408537646">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="457" y="222" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.825@0.23.1440.825" timestamp="1579408537646" />
-    <state x="459" y="32" key="CommitChangelistDialog2" timestamp="1579854702565">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="459" y="32" key="CommitChangelistDialog2" timestamp="1579950457790">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state x="459" y="32" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1579750627084" />
+    <state x="459" y="32" key="CommitChangelistDialog2/0.23.1440.804@0.23.1440.804" timestamp="1579950457790" />
     <state x="459" y="32" key="CommitChangelistDialog2/0.23.1440.808@0.23.1440.808" timestamp="1579854702565" />
     <state x="459" y="45" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1579404111158" />
     <state x="459" y="45" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1579574475790" />
@@ -256,16 +329,18 @@
     <state x="229" y="73" key="SettingsEditor/0.23.1440.804@0.23.1440.804" timestamp="1579655951048" />
     <state x="229" y="73" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1579760393405" />
     <state x="229" y="74" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1579575000182" />
-    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1579854710707">
-      <screen x="0" y="23" width="1440" height="808" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1579950464643">
+      <screen x="0" y="23" width="1440" height="804" />
     </state>
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1579750641246" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.804@0.23.1440.804" timestamp="1579950464643" />
     <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1579854710707" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.823@0.23.1440.823" timestamp="1579404314034" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.825@0.23.1440.825" timestamp="1579574480756" />
-    <state x="413" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1579574801307">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="413" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1580101603625">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="413" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1580101603625" />
+    <state x="413" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1580000501552" />
     <state x="413" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1579367492928" />
     <state x="413" y="265" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1579396725308" />
     <state x="413" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.825@0.23.1440.825" timestamp="1579574801307" />
